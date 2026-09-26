@@ -225,5 +225,6 @@
   "full_data_selection_logo_rmse": 0.11120815725221278,
   "primary_evaluation": "Nested Leave-One-Lot-Out outer validation",
   "performance_note": "Use nested outer OOF metrics for internal generalization evidence; the final full-data fit has no independent test score.",
+  "sequence_ablation_note": "wafer_number is excluded from the primary Process-only model and used only in the Sequence-only baseline and the separate Process + Sequence nested ablation.",
   "explainability_note": "Direct standardized coefficients are exported only for Ridge / ElasticNet. Other selected model families require model-agnostic explainability in 09."
 }
