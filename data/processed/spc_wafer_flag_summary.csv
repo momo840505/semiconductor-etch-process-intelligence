@@ -1,0 +1,34 @@
+experiment_key,lot_number,wafer_number,n_flagged_features,max_abs_standardized_residual,flagged_features,n_mr_flagged_features,max_mr_ratio_to_ucl,mr_flagged_features,has_mr_jump
+2024-08-07_08,8,8,5,6.993740160349432,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_Gas2Flow | Stat3_Etch_MV_Gas7Flow | Stat3_Etch_MV_Heater4Temp | Stat3_Etch_MV_PlatenRFLoadCapacitor,5,2.896138660897544,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_Gas2Flow | Stat3_Etch_MV_Gas7Flow | Stat3_Etch_MV_Heater4Temp | Stat3_Etch_MV_PlatenRFLoadCapacitor,True
+2024-07-09_05,3,5,5,3.517924254851929,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_Gas7Flow | Stat3_Etch_MV_PlatenRFTuningCapacitor | Stat3_Etch_MV_SourceRF2TuningCapacitor | Stat3_Etch_MV_SourceRFLoadPower,1,1.1618835123124869,Stat3_Etch_MV_Gas1Flow,True
+2024-08-07_09,8,9,4,4.852115054231299,Stat3_Etch_MV_Gas2Flow | Stat3_Etch_MV_Gas7Flow | Stat3_Etch_MV_Heater2Temp | Stat3_Etch_MV_Heater4Temp,1,1.2101847841566333,Stat3_Etch_MV_Heater2Temp,True
+2024-08-07_07,8,7,4,3.845600958130291,Stat3_Etch_MV_Gas7Flow | Stat3_Etch_MV_Heater4Temp | Stat3_Etch_MV_PlatenRFLoadCapacitor | Stat3_Etch_MV_PlatenRFTuningCapacitor,0,,,False
+2024-08-07_01,8,1,4,3.5577156105916146,Stat3_Etch_MV_ForeLinePressure | Stat3_Etch_MV_Gas7Flow | Stat3_Etch_MV_Heater3Temp | Stat3_Etch_MV_PlatenRFTuningCapacitor,0,,,False
+2024-07-05_01,2,1,3,5.018226252569582,Stat3_Etch_MV_Gas7Flow | Stat3_Etch_MV_Heater2Temp | Stat3_Etch_MV_moriInnerCurrent,0,,,False
+2024-08-07_10,8,10,3,4.795335910491716,Stat3_Etch_MV_Heater4Temp | Stat3_Etch_MV_HeliumBPFlow | Stat3_Etch_MV_PlatenRFTuningCapacitor,5,2.546457921365083,Stat3_Etch_MV_Gas2Flow | Stat3_Etch_MV_Gas7Flow | Stat3_Etch_MV_Heater2Temp | Stat3_Etch_MV_Heater4Temp | Stat3_Etch_MV_HeliumBPPressure,True
+2024-08-22_08,10,8,3,3.289012703933986,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_SourceRF2TuningCapacitor | Stat3_Etch_MV_SourceRFLoadPower,1,1.0052438337065417,Stat3_Etch_MV_SourceRF2TuningCapacitor,True
+2024-08-07_06,8,6,2,4.7430198992119905,Stat3_Etch_MV_Heater2Temp | Stat3_Etch_MV_PlatenRFTuningCapacitor,0,,,False
+2024-07-19_09,5,9,2,4.140353926756329,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_SourceRF2TuningCapacitor,2,1.1818387086233693,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_SourceRF2TuningCapacitor,True
+2024-07-02_01,1,1,2,3.377450355129802,Stat3_Etch_MV_ForeLinePressure | Stat3_Etch_MV_HeliumBPPressure,0,,,False
+2024-07-11_05,4,5,2,3.366537890457945,Stat3_Etch_MV_PlatenRFTuningCapacitor | Stat3_Etch_MV_SourceRFLoadPower,0,,,False
+2024-07-09_02,3,2,1,3.5675821218275234,Stat3_Etch_MV_Gas7Flow,2,1.136993085505563,Stat3_Etch_MV_HeliumBPPressure | Stat3_Etch_MV_PlatenRFLoadCapacitor,True
+2024-08-01_02,6,2,1,3.4329282858189467,Stat3_Etch_MV_Gas7Flow,1,1.5832665196837807,Stat3_Etch_MV_Gas7Flow,True
+2024-07-19_01,5,1,1,3.203434008363412,Stat3_Etch_MV_Gas1Flow,0,,,False
+2024-07-19_04,5,4,1,3.1223597819252085,Stat3_Etch_MV_PlatenRFLoadPower,0,,,False
+2024-07-11_06,4,6,1,3.0530690175329385,Stat3_Etch_MV_Heater3Temp,4,1.0419680926879642,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_PlatenRFReflectedPower | Stat3_Etch_MV_SourceRF2TuningCapacitor | Stat3_Etch_MV_SourceRFLoadPower,True
+2024-07-11_01,4,1,1,3.024296383266846,Stat3_Etch_MV_PlatenRFTuningCapacitor,0,,,False
+2024-08-22_01,10,1,1,3.020757563360181,Stat3_Etch_MV_Heater4Temp,0,,,False
+2024-08-21_10,9,10,0,,,4,1.160568636398479,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_PlatenRFLoadCapacitor | Stat3_Etch_MV_SourceRF2TuningCapacitor | Stat3_Etch_MV_SourceRFLoadPower,True
+2024-07-02_02,1,2,0,,,3,1.3066101321982715,Stat3_Etch_MV_ForeLinePressure | Stat3_Etch_MV_HeliumBPPressure | Stat3_Etch_MV_PlatenDcBias,True
+2024-07-19_02,5,2,0,,,3,1.3602274501309712,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_HeliumBPFlow | Stat3_Etch_MV_PlatenRFReflectedPower,True
+2024-08-07_02,8,2,0,,,3,1.15877880302141,Stat3_Etch_MV_ForeLinePressure | Stat3_Etch_MV_Heater3Temp | Stat3_Etch_MV_PlatenRFLoadCapacitor,True
+2024-07-05_02,2,2,0,,,2,1.5964119164766057,Stat3_Etch_MV_Gas7Flow | Stat3_Etch_MV_PlatenRFLoadCapacitor,True
+2024-07-19_10,5,10,0,,,2,1.3966462606696382,Stat3_Etch_MV_Gas1Flow | Stat3_Etch_MV_SourceRFLoadPower,True
+2024-07-02_09,1,9,0,,,1,1.269903062272289,Stat3_Etch_MV_ForeLinePressure,True
+2024-07-09_06,3,6,0,,,1,1.0576039555931138,Stat3_Etch_MV_Gas1Flow,True
+2024-07-09_10,3,10,0,,,1,1.0523097959548402,Stat3_Etch_MV_HeliumBPFlow,True
+2024-08-05_02,7,2,0,,,1,1.0428349599816367,Stat3_Etch_MV_PlatenRFLoadCapacitor,True
+2024-08-21_02,9,2,0,,,1,1.1245326350149905,Stat3_Etch_MV_PlatenRFLoadCapacitor,True
+2024-08-21_09,9,9,0,,,1,1.1048573393767405,Stat3_Etch_MV_SourceRFLoadPower,True
+2024-08-22_02,10,2,0,,,1,1.027204554462029,Stat3_Etch_MV_PlatenRFReflectedPower,True
+2024-08-22_09,10,9,0,,,1,1.0673813016483282,Stat3_Etch_MV_SourceRFLoadPower,True

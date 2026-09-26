@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw dataset stays local
+data/raw/
+
+# Temporary files
+*.tmp
+*.log
+
+# Python cache / test cache
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

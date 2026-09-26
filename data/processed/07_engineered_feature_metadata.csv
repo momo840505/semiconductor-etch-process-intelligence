@@ -1,0 +1,110 @@
+engineered_feature,feature_family,sensor_short,raw_sensor,description,is_effectively_constant_full_data_diagnostic,included_in_base,included_in_extended
+mean__EpdIntensity,mean,EpdIntensity,Stat3_Etch_MV_EpdIntensity,Main Active Process level,True,True,True
+std__EpdIntensity,std,EpdIntensity,Stat3_Etch_MV_EpdIntensity,Within-window signal spread,True,True,True
+robust_width__EpdIntensity,robust_width,EpdIntensity,Stat3_Etch_MV_EpdIntensity,P90 - P10 robust spread,True,False,True
+late_minus_early__EpdIntensity,late_minus_early,EpdIntensity,Stat3_Etch_MV_EpdIntensity,Last 20% mean - first 20% mean,True,True,True
+mean__ForeLinePressure,mean,ForeLinePressure,Stat3_Etch_MV_ForeLinePressure,Main Active Process level,False,True,True
+std__ForeLinePressure,std,ForeLinePressure,Stat3_Etch_MV_ForeLinePressure,Within-window signal spread,False,True,True
+robust_width__ForeLinePressure,robust_width,ForeLinePressure,Stat3_Etch_MV_ForeLinePressure,P90 - P10 robust spread,False,False,True
+late_minus_early__ForeLinePressure,late_minus_early,ForeLinePressure,Stat3_Etch_MV_ForeLinePressure,Last 20% mean - first 20% mean,False,True,True
+mean__Gas1Flow,mean,Gas1Flow,Stat3_Etch_MV_Gas1Flow,Main Active Process level,False,True,True
+std__Gas1Flow,std,Gas1Flow,Stat3_Etch_MV_Gas1Flow,Within-window signal spread,False,True,True
+robust_width__Gas1Flow,robust_width,Gas1Flow,Stat3_Etch_MV_Gas1Flow,P90 - P10 robust spread,False,False,True
+late_minus_early__Gas1Flow,late_minus_early,Gas1Flow,Stat3_Etch_MV_Gas1Flow,Last 20% mean - first 20% mean,False,True,True
+mean__Gas2Flow,mean,Gas2Flow,Stat3_Etch_MV_Gas2Flow,Main Active Process level,False,True,True
+std__Gas2Flow,std,Gas2Flow,Stat3_Etch_MV_Gas2Flow,Within-window signal spread,False,True,True
+robust_width__Gas2Flow,robust_width,Gas2Flow,Stat3_Etch_MV_Gas2Flow,P90 - P10 robust spread,False,False,True
+late_minus_early__Gas2Flow,late_minus_early,Gas2Flow,Stat3_Etch_MV_Gas2Flow,Last 20% mean - first 20% mean,False,True,True
+mean__Gas4Flow,mean,Gas4Flow,Stat3_Etch_MV_Gas4Flow,Main Active Process level,False,True,True
+std__Gas4Flow,std,Gas4Flow,Stat3_Etch_MV_Gas4Flow,Within-window signal spread,False,True,True
+robust_width__Gas4Flow,robust_width,Gas4Flow,Stat3_Etch_MV_Gas4Flow,P90 - P10 robust spread,False,False,True
+late_minus_early__Gas4Flow,late_minus_early,Gas4Flow,Stat3_Etch_MV_Gas4Flow,Last 20% mean - first 20% mean,False,True,True
+mean__Gas5Flow,mean,Gas5Flow,Stat3_Etch_MV_Gas5Flow,Main Active Process level,False,True,True
+std__Gas5Flow,std,Gas5Flow,Stat3_Etch_MV_Gas5Flow,Within-window signal spread,False,True,True
+robust_width__Gas5Flow,robust_width,Gas5Flow,Stat3_Etch_MV_Gas5Flow,P90 - P10 robust spread,True,False,True
+late_minus_early__Gas5Flow,late_minus_early,Gas5Flow,Stat3_Etch_MV_Gas5Flow,Last 20% mean - first 20% mean,False,True,True
+mean__Gas7Flow,mean,Gas7Flow,Stat3_Etch_MV_Gas7Flow,Main Active Process level,False,True,True
+std__Gas7Flow,std,Gas7Flow,Stat3_Etch_MV_Gas7Flow,Within-window signal spread,False,True,True
+robust_width__Gas7Flow,robust_width,Gas7Flow,Stat3_Etch_MV_Gas7Flow,P90 - P10 robust spread,False,False,True
+late_minus_early__Gas7Flow,late_minus_early,Gas7Flow,Stat3_Etch_MV_Gas7Flow,Last 20% mean - first 20% mean,False,True,True
+mean__Heater1Temp,mean,Heater1Temp,Stat3_Etch_MV_Heater1Temp,Main Active Process level,False,True,True
+std__Heater1Temp,std,Heater1Temp,Stat3_Etch_MV_Heater1Temp,Within-window signal spread,False,True,True
+robust_width__Heater1Temp,robust_width,Heater1Temp,Stat3_Etch_MV_Heater1Temp,P90 - P10 robust spread,False,False,True
+late_minus_early__Heater1Temp,late_minus_early,Heater1Temp,Stat3_Etch_MV_Heater1Temp,Last 20% mean - first 20% mean,False,True,True
+mean__Heater2Temp,mean,Heater2Temp,Stat3_Etch_MV_Heater2Temp,Main Active Process level,False,True,True
+std__Heater2Temp,std,Heater2Temp,Stat3_Etch_MV_Heater2Temp,Within-window signal spread,False,True,True
+robust_width__Heater2Temp,robust_width,Heater2Temp,Stat3_Etch_MV_Heater2Temp,P90 - P10 robust spread,False,False,True
+late_minus_early__Heater2Temp,late_minus_early,Heater2Temp,Stat3_Etch_MV_Heater2Temp,Last 20% mean - first 20% mean,False,True,True
+mean__Heater3Temp,mean,Heater3Temp,Stat3_Etch_MV_Heater3Temp,Main Active Process level,False,True,True
+std__Heater3Temp,std,Heater3Temp,Stat3_Etch_MV_Heater3Temp,Within-window signal spread,False,True,True
+robust_width__Heater3Temp,robust_width,Heater3Temp,Stat3_Etch_MV_Heater3Temp,P90 - P10 robust spread,False,False,True
+late_minus_early__Heater3Temp,late_minus_early,Heater3Temp,Stat3_Etch_MV_Heater3Temp,Last 20% mean - first 20% mean,False,True,True
+mean__Heater4Temp,mean,Heater4Temp,Stat3_Etch_MV_Heater4Temp,Main Active Process level,False,True,True
+std__Heater4Temp,std,Heater4Temp,Stat3_Etch_MV_Heater4Temp,Within-window signal spread,False,True,True
+robust_width__Heater4Temp,robust_width,Heater4Temp,Stat3_Etch_MV_Heater4Temp,P90 - P10 robust spread,False,False,True
+late_minus_early__Heater4Temp,late_minus_early,Heater4Temp,Stat3_Etch_MV_Heater4Temp,Last 20% mean - first 20% mean,False,True,True
+mean__HeliumBPFlow,mean,HeliumBPFlow,Stat3_Etch_MV_HeliumBPFlow,Main Active Process level,False,True,True
+std__HeliumBPFlow,std,HeliumBPFlow,Stat3_Etch_MV_HeliumBPFlow,Within-window signal spread,False,True,True
+robust_width__HeliumBPFlow,robust_width,HeliumBPFlow,Stat3_Etch_MV_HeliumBPFlow,P90 - P10 robust spread,False,False,True
+late_minus_early__HeliumBPFlow,late_minus_early,HeliumBPFlow,Stat3_Etch_MV_HeliumBPFlow,Last 20% mean - first 20% mean,False,True,True
+mean__HeliumBPPressure,mean,HeliumBPPressure,Stat3_Etch_MV_HeliumBPPressure,Main Active Process level,False,True,True
+std__HeliumBPPressure,std,HeliumBPPressure,Stat3_Etch_MV_HeliumBPPressure,Within-window signal spread,False,True,True
+robust_width__HeliumBPPressure,robust_width,HeliumBPPressure,Stat3_Etch_MV_HeliumBPPressure,P90 - P10 robust spread,False,False,True
+late_minus_early__HeliumBPPressure,late_minus_early,HeliumBPPressure,Stat3_Etch_MV_HeliumBPPressure,Last 20% mean - first 20% mean,False,True,True
+mean__PlatenDcBias,mean,PlatenDcBias,Stat3_Etch_MV_PlatenDcBias,Main Active Process level,False,True,True
+std__PlatenDcBias,std,PlatenDcBias,Stat3_Etch_MV_PlatenDcBias,Within-window signal spread,False,True,True
+robust_width__PlatenDcBias,robust_width,PlatenDcBias,Stat3_Etch_MV_PlatenDcBias,P90 - P10 robust spread,False,False,True
+late_minus_early__PlatenDcBias,late_minus_early,PlatenDcBias,Stat3_Etch_MV_PlatenDcBias,Last 20% mean - first 20% mean,False,True,True
+mean__PlatenRFLoadCapacitor,mean,PlatenRFLoadCapacitor,Stat3_Etch_MV_PlatenRFLoadCapacitor,Main Active Process level,False,True,True
+std__PlatenRFLoadCapacitor,std,PlatenRFLoadCapacitor,Stat3_Etch_MV_PlatenRFLoadCapacitor,Within-window signal spread,False,True,True
+robust_width__PlatenRFLoadCapacitor,robust_width,PlatenRFLoadCapacitor,Stat3_Etch_MV_PlatenRFLoadCapacitor,P90 - P10 robust spread,False,False,True
+late_minus_early__PlatenRFLoadCapacitor,late_minus_early,PlatenRFLoadCapacitor,Stat3_Etch_MV_PlatenRFLoadCapacitor,Last 20% mean - first 20% mean,False,True,True
+mean__PlatenRFLoadPower,mean,PlatenRFLoadPower,Stat3_Etch_MV_PlatenRFLoadPower,Main Active Process level,False,True,True
+std__PlatenRFLoadPower,std,PlatenRFLoadPower,Stat3_Etch_MV_PlatenRFLoadPower,Within-window signal spread,False,True,True
+robust_width__PlatenRFLoadPower,robust_width,PlatenRFLoadPower,Stat3_Etch_MV_PlatenRFLoadPower,P90 - P10 robust spread,False,False,True
+late_minus_early__PlatenRFLoadPower,late_minus_early,PlatenRFLoadPower,Stat3_Etch_MV_PlatenRFLoadPower,Last 20% mean - first 20% mean,False,True,True
+mean__PlatenRFPeakToPeak,mean,PlatenRFPeakToPeak,Stat3_Etch_MV_PlatenRFPeakToPeak,Main Active Process level,False,True,True
+std__PlatenRFPeakToPeak,std,PlatenRFPeakToPeak,Stat3_Etch_MV_PlatenRFPeakToPeak,Within-window signal spread,False,True,True
+robust_width__PlatenRFPeakToPeak,robust_width,PlatenRFPeakToPeak,Stat3_Etch_MV_PlatenRFPeakToPeak,P90 - P10 robust spread,False,False,True
+late_minus_early__PlatenRFPeakToPeak,late_minus_early,PlatenRFPeakToPeak,Stat3_Etch_MV_PlatenRFPeakToPeak,Last 20% mean - first 20% mean,False,True,True
+mean__PlatenRFReflectedPower,mean,PlatenRFReflectedPower,Stat3_Etch_MV_PlatenRFReflectedPower,Main Active Process level,False,True,True
+std__PlatenRFReflectedPower,std,PlatenRFReflectedPower,Stat3_Etch_MV_PlatenRFReflectedPower,Within-window signal spread,False,True,True
+robust_width__PlatenRFReflectedPower,robust_width,PlatenRFReflectedPower,Stat3_Etch_MV_PlatenRFReflectedPower,P90 - P10 robust spread,False,False,True
+late_minus_early__PlatenRFReflectedPower,late_minus_early,PlatenRFReflectedPower,Stat3_Etch_MV_PlatenRFReflectedPower,Last 20% mean - first 20% mean,False,True,True
+mean__PlatenRFTuningCapacitor,mean,PlatenRFTuningCapacitor,Stat3_Etch_MV_PlatenRFTuningCapacitor,Main Active Process level,False,True,True
+std__PlatenRFTuningCapacitor,std,PlatenRFTuningCapacitor,Stat3_Etch_MV_PlatenRFTuningCapacitor,Within-window signal spread,False,True,True
+robust_width__PlatenRFTuningCapacitor,robust_width,PlatenRFTuningCapacitor,Stat3_Etch_MV_PlatenRFTuningCapacitor,P90 - P10 robust spread,False,False,True
+late_minus_early__PlatenRFTuningCapacitor,late_minus_early,PlatenRFTuningCapacitor,Stat3_Etch_MV_PlatenRFTuningCapacitor,Last 20% mean - first 20% mean,False,True,True
+mean__Pressure,mean,Pressure,Stat3_Etch_MV_Pressure,Main Active Process level,False,True,True
+std__Pressure,std,Pressure,Stat3_Etch_MV_Pressure,Within-window signal spread,False,True,True
+robust_width__Pressure,robust_width,Pressure,Stat3_Etch_MV_Pressure,P90 - P10 robust spread,False,False,True
+late_minus_early__Pressure,late_minus_early,Pressure,Stat3_Etch_MV_Pressure,Last 20% mean - first 20% mean,False,True,True
+mean__SourceRF2PeakToPeak,mean,SourceRF2PeakToPeak,Stat3_Etch_MV_SourceRF2PeakToPeak,Main Active Process level,False,True,True
+std__SourceRF2PeakToPeak,std,SourceRF2PeakToPeak,Stat3_Etch_MV_SourceRF2PeakToPeak,Within-window signal spread,False,True,True
+robust_width__SourceRF2PeakToPeak,robust_width,SourceRF2PeakToPeak,Stat3_Etch_MV_SourceRF2PeakToPeak,P90 - P10 robust spread,True,False,True
+late_minus_early__SourceRF2PeakToPeak,late_minus_early,SourceRF2PeakToPeak,Stat3_Etch_MV_SourceRF2PeakToPeak,Last 20% mean - first 20% mean,False,True,True
+mean__SourceRF2TuningCapacitor,mean,SourceRF2TuningCapacitor,Stat3_Etch_MV_SourceRF2TuningCapacitor,Main Active Process level,False,True,True
+std__SourceRF2TuningCapacitor,std,SourceRF2TuningCapacitor,Stat3_Etch_MV_SourceRF2TuningCapacitor,Within-window signal spread,False,True,True
+robust_width__SourceRF2TuningCapacitor,robust_width,SourceRF2TuningCapacitor,Stat3_Etch_MV_SourceRF2TuningCapacitor,P90 - P10 robust spread,True,False,True
+late_minus_early__SourceRF2TuningCapacitor,late_minus_early,SourceRF2TuningCapacitor,Stat3_Etch_MV_SourceRF2TuningCapacitor,Last 20% mean - first 20% mean,False,True,True
+mean__SourceRFLoadPower,mean,SourceRFLoadPower,Stat3_Etch_MV_SourceRFLoadPower,Main Active Process level,False,True,True
+std__SourceRFLoadPower,std,SourceRFLoadPower,Stat3_Etch_MV_SourceRFLoadPower,Within-window signal spread,False,True,True
+robust_width__SourceRFLoadPower,robust_width,SourceRFLoadPower,Stat3_Etch_MV_SourceRFLoadPower,P90 - P10 robust spread,False,False,True
+late_minus_early__SourceRFLoadPower,late_minus_early,SourceRFLoadPower,Stat3_Etch_MV_SourceRFLoadPower,Last 20% mean - first 20% mean,False,True,True
+mean__SourceRFPeakToPeak,mean,SourceRFPeakToPeak,Stat3_Etch_MV_SourceRFPeakToPeak,Main Active Process level,False,True,True
+std__SourceRFPeakToPeak,std,SourceRFPeakToPeak,Stat3_Etch_MV_SourceRFPeakToPeak,Within-window signal spread,False,True,True
+robust_width__SourceRFPeakToPeak,robust_width,SourceRFPeakToPeak,Stat3_Etch_MV_SourceRFPeakToPeak,P90 - P10 robust spread,False,False,True
+late_minus_early__SourceRFPeakToPeak,late_minus_early,SourceRFPeakToPeak,Stat3_Etch_MV_SourceRFPeakToPeak,Last 20% mean - first 20% mean,False,True,True
+mean__SourceRFReflectedPower,mean,SourceRFReflectedPower,Stat3_Etch_MV_SourceRFReflectedPower,Main Active Process level,False,True,True
+std__SourceRFReflectedPower,std,SourceRFReflectedPower,Stat3_Etch_MV_SourceRFReflectedPower,Within-window signal spread,False,True,True
+robust_width__SourceRFReflectedPower,robust_width,SourceRFReflectedPower,Stat3_Etch_MV_SourceRFReflectedPower,P90 - P10 robust spread,False,False,True
+late_minus_early__SourceRFReflectedPower,late_minus_early,SourceRFReflectedPower,Stat3_Etch_MV_SourceRFReflectedPower,Last 20% mean - first 20% mean,False,True,True
+mean__SourceRFTuningCapacitor,mean,SourceRFTuningCapacitor,Stat3_Etch_MV_SourceRFTuningCapacitor,Main Active Process level,True,True,True
+std__SourceRFTuningCapacitor,std,SourceRFTuningCapacitor,Stat3_Etch_MV_SourceRFTuningCapacitor,Within-window signal spread,True,True,True
+robust_width__SourceRFTuningCapacitor,robust_width,SourceRFTuningCapacitor,Stat3_Etch_MV_SourceRFTuningCapacitor,P90 - P10 robust spread,True,False,True
+late_minus_early__SourceRFTuningCapacitor,late_minus_early,SourceRFTuningCapacitor,Stat3_Etch_MV_SourceRFTuningCapacitor,Last 20% mean - first 20% mean,True,True,True
+mean__moriInnerCurrent,mean,moriInnerCurrent,Stat3_Etch_MV_moriInnerCurrent,Main Active Process level,False,True,True
+std__moriInnerCurrent,std,moriInnerCurrent,Stat3_Etch_MV_moriInnerCurrent,Within-window signal spread,False,True,True
+robust_width__moriInnerCurrent,robust_width,moriInnerCurrent,Stat3_Etch_MV_moriInnerCurrent,P90 - P10 robust spread,False,False,True
+late_minus_early__moriInnerCurrent,late_minus_early,moriInnerCurrent,Stat3_Etch_MV_moriInnerCurrent,Last 20% mean - first 20% mean,False,True,True
+main_active_duration,timing,MainActiveWindow,Derived from SourceRFLoadPower threshold window,Main Active Process duration (seconds),False,True,True
