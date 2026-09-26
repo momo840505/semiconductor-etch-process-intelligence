@@ -18,7 +18,15 @@ env/
 Thumbs.db
 
 # Raw dataset stays local
-data/raw/
+data/raw/*
+!data/raw/README.md
+!data/raw/.gitkeep
+
+# Generated intermediate data
+data/interim/
+
+# Generated model binaries
+models/*.joblib
 
 # Temporary files
 *.tmp
