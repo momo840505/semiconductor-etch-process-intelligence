@@ -1,0 +1,3 @@
+case_type,experiment_key,lot_number,wafer_number,residual_anomaly_consensus,cross_lot_ood_consensus,n_flagged_features,n_mr_flagged_features,cv_si_etch_pct,abs_nested_error,vm_informed_max_abs_z,residual_driver_feature,ood_driver_feature,selection_rule
+A_Process+Model,2024-08-07_10,8,10,1,2,3,5,8.166249585711862,0.5755522883913855,1.8627862914911195,Stat3_Etch_MV_Heater4Temp,late_minus_early__Heater2Temp,有 process-review evidence 的 labeled wafers 中，|OOF error| 最大者
+B_Quality_Contrast,2024-08-01_07,6,7,0,0,0,0,8.946924670011366,0.1885659425908556,2.6048484948889166,Stat3_Etch_MV_Pressure,robust_width__PlatenRFReflectedPower,Quality CV 位於高端，而且目前 process-review channels 都沒有 flag

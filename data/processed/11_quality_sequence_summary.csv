@@ -1,0 +1,9 @@
+metric,value,note
+Mean Si Etch average,43.66811988323162,88 labeled wafers
+CV average (%),8.211430199848332,88 labeled wafers
+Lots with negative Mean Si Etch slope,10.0,out of 10 Lots
+Lots with negative CV slope,9.0,out of 10 Lots
+Main Active Window mean duration (s),597.542083337903,03 data-driven 80% SourceRFLoadPower heuristic
+Main Active Window duration SD (s),2.1982442299452285,96 process wafers
+Median |within-Lot Spearman| before detrending,0.3878787878787878,24 comparable process features
+Median |within-Lot Spearman| after detrending,0.0848484848484848,same 24 process features

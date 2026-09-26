@@ -1,0 +1,36 @@
+{
+  "process_wafers": 96,
+  "quality_labeled_wafers": 88,
+  "lots": 10,
+  "residual_feature_rule": "只使用 valid_lots == Lot 總數且 n_valid_wafers == Process wafer 總數的 features；valid_lot=False placeholder residual 不納入。",
+  "residual_feature_count": 24,
+  "residual_excluded_features": [
+    "Stat3_Etch_MV_EpdIntensity",
+    "Stat3_Etch_MV_SourceRFTuningCapacitor",
+    "Stat3_Etch_MV_SourceRF2TuningCapacitor"
+  ],
+  "residual_pca_components_90pct": 12,
+  "residual_pca_matches_notebook_06": true,
+  "residual_candidate_rule": "三個 residual metrics 使用完整 Process population 的 retrospective 95th percentile；至少 2/3 flags 才列為 review candidate。",
+  "pure_cross_lot_ood_feature_source": "Notebook 07 process engineered features only",
+  "pure_cross_lot_ood_uses_quality_target": false,
+  "pure_cross_lot_ood_uses_notebook08_error": false,
+  "pure_cross_lot_ood_uses_notebook09_importance": false,
+  "pure_cross_lot_ood_fixed_outer_feature_universe": true,
+  "cross_lot_ood_fit_rule": "每次完整 held-out 一個 Lot；outer-training Lots 先決定固定 near-constant feature universe。Inner calibration 與 final outer detector 都使用同一套 outer-selected predictors；各自的 scaler、Ledoit-Wolf covariance、PCA 與 PCA component count 只由各自 training Lots fit。",
+  "cross_lot_ood_threshold_rule": "Outer reference Lots 內再做 Inner Leave-One-Lot-Out；所有 inner folds 固定使用 outer-training-only feature universe，reference wafer 由未看過其 Lot 的 detector 產生 cross-fitted score，再以這些 scores 建 95th-percentile thresholds；至少 2/3 flags 才列為 candidate。",
+  "cross_lot_ood_calibration_limitation": "group-aware cross-fitted empirical calibration；不是 exact conformal calibration、獨立 production control limit 或正式 false-positive-rate guarantee。",
+  "vm_informed_diagnostic_rule": "09 global supervised grouped permutation importance 選 top-5 sensor groups；每個 outer fold 先由 outer-training Lots 固定 model-sensitive engineered-feature universe，inner LOGO reference 與 held-out scoring 使用同一套 outer-selected features，各自的 scaling 只由對應 training Lots fit。此 channel 明確屬 target-informed diagnostic，不建立 anomaly candidate flag。",
+  "vm_informed_top_sensors": [
+    "PlatenRFTuningCapacitor",
+    "MainActiveWindow",
+    "ForeLinePressure",
+    "SourceRFReflectedPower",
+    "PlatenRFReflectedPower"
+  ],
+  "association_rule": "labeled wafers 上計算 Spearman rho，並用 Lot-cluster bootstrap 估 95% interval；process-only metrics 與 VM-informed diagnostic 在命名上分開。",
+  "bootstrap_reps": 2000,
+  "bootstrap_seed": 20260926,
+  "residual_review_candidates": 3,
+  "cross_lot_ood_candidates": 5
+}

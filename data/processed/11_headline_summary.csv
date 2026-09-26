@@ -1,0 +1,15 @@
+metric,value,unit
+Process wafers,96.0,wafers
+Quality-labeled wafers,88.0,wafers
+Lots,10.0,Lots
+Mean Si Etch,43.66811988323162,µm
+Mean CV,8.211430199848332,%
+Outer - inner radial mean,5.0389484707738745,µm
+Nested OOF RMSE,0.1296326058643883,µm
+Nested OOF MAE,0.09723159843510455,µm
+Nested OOF R²,0.8947706236611083,
+Sequence-only baseline RMSE,0.2209281611397969,µm
+Training-mean baseline RMSE,0.4043748837513302,µm
+Residual review candidates,3.0,wafers
+Cross-Lot OOD candidates,5.0,wafers
+Residual + OOD overlap,2.0,wafers
